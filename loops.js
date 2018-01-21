@@ -13,8 +13,9 @@ function whileLoop(n){
   let countdown=n;
 
   while (countdown > 0){
-    console.log(countdown);
+    console.log(--countdown);
   }
+  return "done";
 }
 
 function doWhileLoop(array){
